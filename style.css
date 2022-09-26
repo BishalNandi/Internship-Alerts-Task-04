@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+#navitem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    font-size: 25px;
+    justify-content: space-between;
+   
+}
+
+
+
+#sub-nav ul {
+    display: flex;
+    margin: auto;
+}
+
+#sub-nav ul li {
+    list-style-type: none;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 15px;
+    padding: 20px;
+}
+
+#sub-nav ul li:first-child{
+    background-color: rgb(213, 207, 207);
+    border-radius: 20px;
+}
+
+
+#tri-nav ul {
+    display: flex;
+    margin: 20px;
+    color: black;
+    
+   
+}
+
+#tri-nav ul li {
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    margin: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    
+
+}
+
+#tri-nav ul li:hover {
+    border: 1px solid black;
+    transition: ease-in;
+}
+
+span img {
+    height: 60px;
+    width: 80px;
+    margin: 20px;
+    border-radius: 30px;
+    cursor: pointer;    color: black;
+
+}
+
+li {
+    padding: 5px;
+    font-weight: 700;
+}
+
+
+/* motion */
+.taghead {
+    background-color: rgb(225, 225, 255);
+    /* border: 1px solid blue; */
+}
+
+.tag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #c6c6ff;
+}
+.motion {
+    /* border:1px solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    /* animation-name:chandra;
+    animation-duration: infinite;
+    animation-iteration-count: infinite; */
+    /* animation: hello 10s ease-in-out 1s 12 infinite backwards; */
+
+    animation-name: hello;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: reverse;
+    animation-timing-function:ease-in-out;
+    animation-direction: alternate;
+    /* animation-delay: 2s; */
+}
+
+
+.motionbox {
+    /* border:1px solid blue; */
+    height: 250px;
+    width: 200px;
+    margin: 15px 25px 0 25px;
+}
+
+.motionpic img {
+    height: 200px;
+    width: 200px;
+    /* border:1px solid blue; */
+    border-radius: 100px;
+}
+
+.motionname {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8px;
+}
+
+/* about product */
+.maincontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    /* border:1px solid blue; */
+    height: 400px;
+    width: 350px;
+    margin: 50px;
+    border-radius: 15px;
+    background-color: rgb(196 196 255);
+    color: #372fc6;
+}
+
+.img {
+    /* border:1px solid blue; */
+    height: 300px;
+    width: 100%;
+}
+
+.img img {
+    height: 285px;
+    width: 100%;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+}
+
+.promo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px;
+    z-index: 1;
+}
+
+.title {
+    /* border:1px solid blue; */
+    font-size: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0 5px 0;
+    /* padding:5px; */
+    border-radius: 50px;
+}
+
+.title:hover {
+    /* background-color: rgb(167, 167, 255); */
+    background-color: rgb(160, 160, 255);
+    color: white;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 10px 10px 10px;
+}
+
+.order {
+    /* display: inline; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border:1px solid blue; */
+    padding: 5px;
+    background-color: rgb(177, 177, 253);
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.order:hover {
+    color: rgb(231, 211, 255);
+    background-color: rgb(121, 109, 249);
+}
+
+/* footer */
+footer {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    height: 88px;
+    /* border:1px solid blue; */
+    background-color: rgb(174 175 255);
+}
+
+footer li {
+    margin: 10px 30px;
+}
+
+footer img {
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+#footer2 {
+    background-color: rgb(196 196 255);
+    height: 55px;
+}
+
+@keyframes hello {
+    from {
+        top: 0px;
+        left: -1000px;
+    }
+
+    to {
+        top: 0px;
+        left: 1000px;
+    }
+
+}
